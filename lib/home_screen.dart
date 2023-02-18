@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<String> getResponseFromAPI(String search) async {
     try {
-      String apiKey = "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";
+      String apiKey = "";
       var url = Uri.https("api.openai.com", "/v1/completions");
 
       Map<String, String> headers = {
